@@ -1,0 +1,14 @@
+seed: 0
+run_suffix: 0
+agent_name: ddpg_extension
+gamma: 0.99
+lr: 3e-4
+tau: 0.005
+batch_size: 256
+buffer_size: 1e6
+sil_loss_weight: 0.05
+sil_batch_size: 64
+# sil_loss_weight: 0.0
+min_sil_reward: 0.8
+# enable_sil_after_steps: 10_000_000   # huge so it never triggers
+# min_sil_reward: 10_000_000           # impossible reward
